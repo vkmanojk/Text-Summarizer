@@ -1,23 +1,65 @@
-To run the app:
+# Text Summarizer
+
+Text Summarizer is a flask based web application. It uses NLTK, Gensim, Sumy and Spacy to summarize. The application is built using Flask, HTML5, CSS3 and Javascript. 
+
+You can watch the live demo [Youtube](https://youtu.be/hwuZ0nQHTfo)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+The prerequisites are already mentioned in [requirements.txt](requirements.txt)
+```
+beautifulsoup4
+bs4
+Flask
+nltk
+spacy
+sumy
+thinc
+urllib3
+gensim
+gensim-sum-ext
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz
+gunicorn
+```
+
+### Installing
+
+Run the command below to install the the prerequirements
+
+```
 pip install -r requirements.txt
-or 
-pip3 install -r requirements.txt
+```
 
-to install all the requirements.
- 
-Now you can simply run using 
+In case of errors, check that the python version you're using is 64-bit. Delete the github link in the [requirements.txt](requirements.txt). Install it again using pip. Now enter the command below 
+
+```
+python -m spacy download en
+```
+Also make sure to run the terminal / command prompt as root.
+## Running the application
+
+Simply type 
+
+```
 python app.py
-
-To host this website in an online server, go to the ngrok-Windows or ngrok-Ubuntu folder as per your operating system.
-Open command prompt or terminal in this location and type the following:
-
-$ ./ngrok authtoken 1Z9dq0NeeoQgwdop5g1HT4QrFpd_2JCwQqGhWRKYi9k7pS5vu
-$ ./ngrok http 5000
-
-Copy the link now shown and use it in computer / laptop/ mobiles/ tablets, etc.
-The link will be something like this:
-
-<random_string>.ngrok.io
+```
+in the terminal
 
 
+## Built With
 
+* Flask
+* HTML
+* CSS
+* Spacy
+* NLTK
+* Gensim
+
+ 
+
+## Author
+
+**Manojkumar V K**  - [Web](https://vkmanojk.github.io) 
