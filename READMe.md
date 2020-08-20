@@ -2,7 +2,7 @@
 
 Text Summarizer is a flask based web application. It uses NLTK, Gensim, Sumy and Spacy to summarize. The application is built using Flask, HTML5, CSS3 and Javascript. 
 
-You can watch the live demo [Youtube](https://youtu.be/hwuZ0nQHTfo)
+You can watch the live demo [here](https://youtu.be/hwuZ0nQHTfo)
 
 ## Getting Started
 
